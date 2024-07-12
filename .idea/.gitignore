@@ -5,3 +5,6 @@
 /httpRequests/
 # GitHub Copilot persisted chat sessions
 /copilot/chatSessions
+/codewars-exercises.iml
+/modules.xml
+/vcs.xml
