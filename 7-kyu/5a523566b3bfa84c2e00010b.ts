@@ -4,3 +4,4 @@ export function minSum(arr: number[]): number {
         .sort((a, b) => a - b)
         .reduce((accum, current, index) => accum + current * arr[arr.length - 1 - index], 0) / 2
 }
+ 
