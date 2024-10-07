@@ -1,6 +1,5 @@
 // Solution for the 58daa7617332e59593000006 problem in CodeWars: 'Most digits' (7 kyu)
 
-
 export class Kata {
 
     static findLongest(array:number[]):number {
