@@ -28,5 +28,21 @@ const resultPartOne = distances
     .filter(value => !isNaN(value))
     .reduce((sum, value) => sum + value, 0)
 
+// I print the result of the first part of the challenge
 console.log(resultPartOne)
+
+// Solution for the second part of the challenge
+const countMap: number[] = [];
+
+for(let value of leftLine){
+    const multiple = value * rightLine.filter(v => v === value).length
+    if(multiple > 0) {
+        countMap.push(multiple)
+    }
+}
+
+const resultPartTwo: number = countMap.reduce((accum, value) => accum + value, 0)
+
+// I print the result of the second part of the challenge
+console.log(resultPartTwo)
 
