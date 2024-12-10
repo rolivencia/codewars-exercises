@@ -1,3 +1,5 @@
+// Solution for the 5680781b6b7c2be860000036 problem at CodeWars: Find the vowels (7 kyu)
+
 export function vowelIndices(word: string): number[] {
   const vowels = Object.freeze(['a', 'e', 'i', 'o', 'u', 'y'])
   return word

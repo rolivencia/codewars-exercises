@@ -1,3 +1,5 @@
+// Solution for the 580878d5d27b84b64c000b51 problem at CodeWars: Sum of Triangular Numbers (7 kyu)
+
 function sumFromOneToN(n: number){
     return (n * (n+1))/2
 }
