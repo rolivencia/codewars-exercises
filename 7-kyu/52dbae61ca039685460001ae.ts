@@ -7,7 +7,5 @@ export function change(string: string): string {
         .filter(char => /[a-z]/.test(char))
         .map(char => char.charCodeAt(0) - 97)
 
-    const result = new Array(26).fill('0')
-
-    return result.map((_, index) => codes.includes(index) ? '1' : '0').join('')
+    return new Array(26).map((_, index) => codes.includes(index) ? '1' : '0').join('')
 }
