@@ -1,4 +1,4 @@
-// Solution for the 52a382ee44408cea2500074c problem in CodeWars: 'Matrix Determinant'
+// Solution for the 52a382ee44408cea2500074c problem at CodeWars: Matrix Determinant (4 kyu)
 
 function calculateMinor(row: number, column: number, m:number[][]): number[][] {
     const mRowRemoved = [...m.slice(0,row), ...m.slice(row+1)]
