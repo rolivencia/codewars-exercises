@@ -34,9 +34,6 @@ export const mix = (s1:string, s2:string): string =>{
         .map(key => ({ letter: key, length: entries[key].length, entry: entries[key].entry }))
         .sort((a,b) => sortByEntry(a,b))
 
-    console.log(result)
-
-
     // your code here!
     return result.map(entry => `${entry.entry}:${new Array(entry.length).fill(entry.letter).join('')}`).join('/')
 }
