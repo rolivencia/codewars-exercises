@@ -1,3 +1,5 @@
+// Solution for the 57a429e253ba3381850000fb problem in CodeWars: 'Calculate BMI' (8 kyu)
+
 export function bmi(weight: number, height: number): string {
     const bmi = parseFloat((weight / (height ** 2)).toFixed(1))
 
