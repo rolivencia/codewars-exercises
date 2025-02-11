@@ -1,4 +1,4 @@
-// Alphabet symmetry (7 kyu) - https://www.codewars.com/kata/59d9ff9f7905dfeed50000b0
+// Solution for the 59d9ff9f7905dfeed50000b0 problem at CodeWars: Alphabet symmetry (7 kyu)
 
 export function letterOrder(word: string, index: number){
     return (word.charCodeAt(index) - 96)
