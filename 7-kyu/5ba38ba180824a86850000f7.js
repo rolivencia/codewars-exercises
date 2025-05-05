@@ -3,7 +3,7 @@
 function solve(arr) {
     const result = []
     for(let element of arr.reverse()){
-        if(result.find((e) => element === e)){
+        if(result.find((e) => element === e) !== undefined){
             continue
         }
         result.push(element)
