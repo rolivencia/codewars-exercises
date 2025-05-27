@@ -1,0 +1,34 @@
+{
+    "name": "your-node-app-name",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "description": "Describe your app here.",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "latest",
+        "nodemon": "latest",
+        "prettier": "latest",
+        "prettify": "latest",
+        "ts-node": "latest",
+        "typescript": "latest"
+    },
+    "scripts": {
+        "prettier": "prettier --write \"**/*.ts\" \"**/*.js\" \"**/*.json\" \"**/*.css\"",
+        "prettify": "pretty-quick --staged",
+        "dev": "nodemon src/index.ts",
+        "start": "ts-node src/index.ts"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "yarn prettify"
+        }
+    },
+    "keywords": [
+        "node",
+        "ts",
+        "typescript"
+    ],
+    "author": {
+        "name": "author_name"
+    }
+}

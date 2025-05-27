@@ -1,0 +1,11 @@
+.log
+.DS_Store
+.jest-*
+lib
+dist
+node_modules
+yarn-error.log
+.out.zip
+.out
+.ionide
+*.d.ts
