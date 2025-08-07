@@ -1,3 +1,5 @@
+// Solution for the 577ff15ad648a14b780000e7 problem at CodeWars: Welcome! (8 kyu)
+
 export function greet(language: string): string {
 
     const languages = [ ['english', 'Welcome']
