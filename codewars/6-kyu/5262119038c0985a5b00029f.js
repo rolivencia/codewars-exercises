@@ -1,9 +1,8 @@
-// Solution for the 5262119038c0985a5b00029f problem at CodeWars: Is a number prime? (6 kyu)
 
 function isPrime(num) {
 
     // Edge cases
-    if(num < 1){
+    if(num <= 1){
         return false
     }
 
