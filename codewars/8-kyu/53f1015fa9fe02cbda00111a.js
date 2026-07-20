@@ -3,7 +3,7 @@
 class Ghost {
     constructor(){
         const options = ['white', 'yellow', 'red', 'purple']
-        const index = Math.round(Math.random() * 3)
+        const index = Math.floor(Math.random() * options.length)
         this.color = options[index]
     }
 }
